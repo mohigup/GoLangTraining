@@ -46,6 +46,7 @@ func main() {
 		name:  "mohit gupta",
 	}
 	fmt.Println("overiding fields")
+	fmt.Println(child)
 	fmt.Println("child name overrides parent:\n",child.name)
 	fmt.Println("explicit pull child name:\n",child.person.name)
 	fmt.Println("overiding methods")

@@ -1,1 +1,10 @@
-package anonymous_self_executing
+package main
+
+import "fmt"
+func main(){
+
+	func(){
+		fmt.Println("Anonymous Self Executing Functions")
+	}()
+}
+
